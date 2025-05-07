@@ -1,23 +1,109 @@
-body{
+body {
+    font-family: Roboto, sans-serif;
+    line-height: 1.6;
+    margin: 0; padding: 0;
+    background-color: #FCF7F8;
+    color: #F78154;
+}
+header {
+    background-color:#69FFF1;
+    color: #3B28CC;
+    padding: 1rem 0;
     text-align: center;
-    margin:0;
+    margin: 0;
+    justify-content: center;
+}
+header h1 {
+    margin: 0;
+    background:#D972FF;
+    border-radius: 8px;
+    max-width: 600px;
+    margin: auto;
+}
+header ul {
+    list-style: none;
+    padding: 0; margin: 0;
+    gap: 1rem;
+    display: flex;
+    justify-content: center;
+    gap: 10rem;
+}
+header ul li {
+    background:#3B28CC;
+    border-radius: 35px;
+    font-size: 25px;
+}
+header ul li a {
+    text-decoration: none;
+    color: #FCF7F8;
+    font-weight: bold;
+}
+section ul li a {
+    text-decoration: none;
+    color: #D972FF;
+    font-weight: bold;
+}
+section ul li button {
+    border-radius: 35px;
+}
+ul li a:hover {
+    text-decoration: underline;
 }
 section {
-    background-color: #000505;
+    padding: 2rem;
+    margin: 1rem auto;
+    max-width: 600px;
+    background:#3B28CC;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
-p {
-    color:rgb(246, 246, 250);
-    font-size:20px;
+section h4 {
+    margin-top: 0.5rem;
+    font-weight: bold;
 }
-h2 {
-    color: rgb(12, 100, 189);
-    }
-h3{
-    color:aliceblue
+section h2 {
+    color: #69FFF1;
 }
-li {
-    color:aliceblue
+
+.caracteristicas ul {
+    list-style: none;
+    padding: 0; margin: 0;
+    gap: 15rem;
+    display: flex;
+    justify-content: center;
 }
- section h2 {
-    background-color: #0a9292;
- }
+.caracteristicas ul li {
+    background:#3B28CC;
+    border-radius: 35px;
+    font-size: 25px;
+}
+.caracteristicas ul li a {
+    text-decoration: none;
+    color: #D972FF;
+    font-weight: bold;
+}
+.caracteristicas ul li a:hover {
+    text-decoration: underline;
+}
+.body_2 h2 {
+    color: #69FFF1;
+}
+.body_2 {
+    text-align: center;
+}
+.body_2 section ul {
+    list-style: none;
+}
+.section b {  
+}
+.body_3 { 
+    text-align: center;
+}
+.body_3 header {
+}
+.body_3 h2 {
+    text-decoration: underline;
+}
+.body_4 h2 {
+    text-align: center;
+}
